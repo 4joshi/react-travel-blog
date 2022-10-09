@@ -1,7 +1,10 @@
+import React from "react";
+import BlogItem from "./components/BlogItem";
+
 function App() {
   return (
-    <div>
-      <h1>React Travel Blog Website</h1>
+    <div className="app">
+      <BlogItem/>
     </div>
   );
 }
