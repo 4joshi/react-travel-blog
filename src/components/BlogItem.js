@@ -14,10 +14,8 @@ const BlogItem = () =>{
     return(
         <div className="blog-item-container">
             <img src={graphicUrl} alt="blog graphic"/>
-            <div className="blog-item-content">
-                <h1>{blog.title}</h1>
-                <p className="blog-item-content-data">{blog.content}</p>
-            </div>
+            <h1>{blog.title}</h1>
+            <p className="blog-item-content-data">{blog.content}</p>
         </div>
     )
 }

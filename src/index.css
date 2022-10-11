@@ -17,30 +17,25 @@ body {
   border-style: solid;
   border-color: #4C6793;
   border-width: 4px;
-  position: relative;
   background-color: #8BBCCC;
   border-radius: 10px;
 }
 
 .blog-item-container img{
-  display: inline-block;
   width : 35%;
   height: 250px;
-  position: absolute;
-  top: 25px;
-  left : 20px;
+  margin: 0 2rem 0 2rem;
+  float: left;
+  margin-top: 25px;
 }
 
-.blog-item-content{
-  display: inline-block;
-  width: 60%;
-  position: absolute;
-  right : 20px;
-}
-
-.blog-item-content h1{
-
+.blog-item-container h1{
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-right: 2rem;
+}
+
+.blog-item-container p{
+  margin-right: 2rem;
 }
